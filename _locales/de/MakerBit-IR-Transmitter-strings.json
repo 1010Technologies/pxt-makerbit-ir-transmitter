@@ -1,0 +1,8 @@
+{
+  "makerbit.connectIrSenderLed|block": "verbinde IR Sender LED an Pin %pin",
+  "makerbit.irNec|block": "Adresse %address | Kommando %command",
+  "makerbit.sendIrDatagram|block": "sende IR Datagramm %hex32bit",
+  "makerbit|block": "MakerBit",
+  "{id:category}Makerbit": "Makerbit",
+  "{id:subcategory}IR Sender": "IR Sender"
+}

@@ -1,0 +1,10 @@
+{
+  "makerbit": "MakerBit",
+  "makerbit.connectIrSenderLed": "Connects to the IR sender LED at the specified pin.",
+  "makerbit.connectIrSenderLed|param|pin": "IR LED pin, eg: AnalogPin.P0",
+  "makerbit.irNec": "Returns an NEC IR datagram as a 32bit hex string.",
+  "makerbit.irNec|param|address": "an 8bit address, eg. 0",
+  "makerbit.irNec|param|command": "an 8bit command, eg. 2",
+  "makerbit.sendIrDatagram": "Sends a 32bit IR datagram using the NEC protocol.",
+  "makerbit.sendIrDatagram|param|hex32bit": "a 32bit hex string, eg: 0x00FF02FD"
+}
