@@ -1,16 +1,18 @@
 {
-  "name": "MakerBit-IR-Transmitter",
-  "version": "0.0.1",
-  "description": "MakeCode extension for sending commands using an IR LED",
-  "license": "MIT",
-  "dependencies": {
-    "core": "*"
-  },
-  "files": [
-    "README.md",
-    "infrared-transmitter.ts",
-    "_locales/de/MakerBit-IR-Transmitter-strings.json"
-  ],
-  "testFiles": ["test.ts"],
-  "public": true
+    "name": "MakerBit-IR-Transmitter",
+    "version": "0.0.2",
+    "description": "MakeCode extension for sending commands using an IR LED",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "infrared-transmitter.ts",
+        "_locales/de/MakerBit-IR-Transmitter-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
 }
