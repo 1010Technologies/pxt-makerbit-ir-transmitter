@@ -77,7 +77,7 @@ namespace makerbit {
   }
 
   /**
-   * Connects to the IR sender LED at the specified pin.
+   * Connects to the IR-emitting LED at the specified pin.
    * @param pin IR LED pin, eg: AnalogPin.P0
    */
   //% subcategory="IR Sender"
