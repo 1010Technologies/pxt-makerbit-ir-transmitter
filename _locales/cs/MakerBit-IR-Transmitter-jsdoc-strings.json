@@ -1,0 +1,10 @@
+{
+  "makerbit": "MakerBit",
+  "makerbit.connectIrSenderLed": "Připojí IR vysílací LED na určený pin.",
+  "makerbit.connectIrSenderLed|param|pin": "pin, kde je připojena IR LED, např. AnalogPin.P0",
+  "makerbit.irNec": "Vrátí NEC IR datagram jako 32-bitový hex řetězec.",
+  "makerbit.irNec|param|address": "8-bitová adresa, např. 0",
+  "makerbit.irNec|param|command": "8-bitový příkaz, např. 2",
+  "makerbit.sendIrDatagram": "Pošle 32-bitový IR datagram pomocí NEC protokolu.",
+  "makerbit.sendIrDatagram|param|hex32bit": "32-bitový hex řetězec, např. 0x00FF02FD"
+}
