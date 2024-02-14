@@ -11,7 +11,7 @@
         "infrared-transmitter.ts",
         "_locales/de/MakerBit-IR-Transmitter-strings.json",
         "_locales/cs/MakerBit-IR-Transmitter-strings.json",
-        "_locales/cs/MakerBit-IR-Transmitter-jsdoc-strings.json",
+        "_locales/cs/MakerBit-IR-Transmitter-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
