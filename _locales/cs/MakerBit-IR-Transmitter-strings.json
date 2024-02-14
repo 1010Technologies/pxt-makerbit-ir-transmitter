@@ -1,0 +1,8 @@
+{
+  "makerbit.connectIrSenderLed|block": "připojit IR vysílač na pin %pin",
+  "makerbit.irNec|block": "adresa %address | příkaz %command",
+  "makerbit.sendIrDatagram|block": "poslat IR datagram %hex32bit",
+  "makerbit|block": "MakerBit",
+  "{id:category}Makerbit": "Makerbit",
+  "{id:subcategory}IR Sender": "IR Vysílač"
+}
