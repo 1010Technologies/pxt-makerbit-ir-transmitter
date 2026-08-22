@@ -36,7 +36,15 @@ namespace makerbit {
       pins.analogWritePin(this.pin, 511);
       control.waitMicros(highMicros);
       pins.analogWritePin(this.pin, 1);
-      control.waitMicros(lowMicros);
+      // control.waitMicros(0) hard-hangs on micro:bit v2 (the underlying codal
+      // timer doesn't handle a zero-cycle wait, taking ~7 minutes instead of
+      // returning immediately — see
+      // https://github.com/lancaster-university/codal-microbit-v2/issues/174).
+      // sendNec()'s stop bit calls transmitBit() with lowMicros=0, so this
+      // guard is required for sendIrDatagram() to work at all on v2.
+      if (lowMicros > 0) {
+        control.waitMicros(lowMicros);
+      }
     }
 
     public sendNec(hex32bit: string): void {
